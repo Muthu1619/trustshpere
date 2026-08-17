@@ -1,0 +1,1553 @@
+[
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 1000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 1000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly matches the user's explicit request to book a flight.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight from the prompt and proposed a flight booking action with a plausible merchant and estimated amount.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 1000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9999074935913086
+        },
+        "trust": {
+            "trust_score": 0.77,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 1000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 1000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' accurately matches the user's request. The origin and destination are consistent, and the date 'tomorrow' is reasonably interpreted as a future booking.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight from Chennai to Mumbai. It assigned the appropriate category, estimated a plausible amount and currency, and selected a reputable airline, fulfilling the core request.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 1000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9999074935913086
+        },
+        "trust": {
+            "trust_score": 0.77,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 1000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 1000.0,
+            "currency": "INR",
+            "confidence": 0.25,
+            "confidence_reason": "The agent incorrectly interpreted 'tomorrow' as a specific date in 2026, which is a significant misalignment with the prompt's immediate timeframe. It also inferred merchant, amount, and currency not explicitly specified by the user.",
+            "requires_payment": true,
+            "reasoning": "The user's original request was to book a flight from Chennai to Mumbai for the very next day. While the AI agent correctly identified the core action as 'book_flight' and the category as 'Travel', its interpretation of 'tomorrow' as a date in 2026 is a critical error that fundamentally misaligns the proposed transaction with the user's intended timeframe. Additionally, the agent assumed specific details such as the merchant, amount, and currency, which were not provided in the original prompt.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 1000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9999074935913086
+        },
+        "trust": {
+            "trust_score": 0.35,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to a low trust score (0.35). This is primarily driven by the AI agent's low confidence (0.25) in interpreting the user's intent. The agent incorrectly interpreted \"tomorrow\" as a specific date in 2026, significantly misaligning with the prompt's immediate timeframe. Additionally, it inferred details such as the merchant, amount, and currency, which were not explicitly provided in the original user request."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 1000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 1000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly matches the user's explicit request 'Book a flight'.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately identified the user's intent to book a flight from the prompt 'Book a flight from Chennai to Mumbai' and proposed the corresponding action with relevant financial details and merchant.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 1000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9999074935913086
+        },
+        "trust": {
+            "trust_score": 0.77,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Amirates",
+            "amount": 12000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "book me a flight from banglore to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "book flight",
+            "category": "Travel",
+            "estimated_amount": 12000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The AI agent accurately identified the user's core intent to book a flight and correctly extracted the origin and destination from the raw prompt, indicating a strong alignment.",
+            "requires_payment": true,
+            "reasoning": "The AI agent successfully interpreted the user's request to book a flight from Bangalore to Mumbai. The proposed transaction details, including the category, estimated amount, and currency, are consistent with a typical flight booking action.",
+            "reputation": "Standard"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 12000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction exceeds the spending limit by $7000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9998987913131714
+        },
+        "trust": {
+            "trust_score": 0.57,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to multiple factors. The proposed amount of 12000.0 INR exceeds the set spending limit of 5000.0 INR. Additionally, the risk assessment for this transaction is \"High\" with a score of 0.9998987913131714. These elements contributed to the 'REVIEW' decision."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 12000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-29 23:45:00",
+            "raw_prompt": "book me a flight from banglore to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 12000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The agent correctly identified the core intent to book a flight and the specified route (Bangalore to Mumbai) from the raw prompt. The specific airline, amount, and date are reasonable defaults or estimations for a concrete proposal.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately interpreted the user's request to book a flight between Bangalore and Mumbai. It then generated a specific proposal including a well-known airline (Emirates), an estimated cost, and a transaction date, which is a practical way to fulfill the user's general request.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 12000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction exceeds the spending limit by $7000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9997934699058533
+        },
+        "trust": {
+            "trust_score": 0.57,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review because the proposed amount of 12000.0 INR exceeds the spending cap of 5000.0 INR. Additionally, the risk assessment categorized the transaction with a \"High\" risk level, contributing to the review decision."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Amirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-12 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly matches the user's request. Origin and destination are correctly identified.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight from Chennai to Mumbai and provided a relevant merchant and estimated cost.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.6005682945251465
+        },
+        "trust": {
+            "trust_score": 0.85,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-12 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly matches the user's explicit request in the prompt.",
+            "requires_payment": true,
+            "reasoning": "The user explicitly requested to book a flight from Chennai to Mumbai. The AI agent proposed to book a flight, which directly aligns with the user's primary intent. The chosen merchant, Emirates, and the estimated amount are details inferred by the agent.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.6005682945251465
+        },
+        "trust": {
+            "trust_score": 0.85,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.98,
+            "confidence_reason": "The AI agent's proposed action to 'book_flight' directly matches the user's explicit request in the raw prompt.",
+            "requires_payment": true,
+            "reasoning": "The user's prompt 'book me a flight from chennai to mumbai' is a clear request for a flight booking. The AI agent correctly identified the 'book_flight' action, categorized it as 'Travel', and provided a relevant merchant (Emirates) with an estimated amount and currency. This indicates a strong alignment with the user's intent, and a payment is required for such a service.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.7570676803588867
+        },
+        "trust": {
+            "trust_score": 0.84,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 10:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.98,
+            "confidence_reason": "The proposed action directly aligns with the user's explicit request to book a flight.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately interpreted the user's intent to book a flight from Chennai to Mumbai. The proposal includes relevant details such as the travel category, a reputable airline (Emirates), and an estimated transaction amount and currency, all consistent with the prompt.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9992130994796753
+        },
+        "trust": {
+            "trust_score": 0.79,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Amala",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action directly fulfills the user's request to book a flight.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight between Chennai and Mumbai. The proposed action directly addresses this request by specifying a flight booking, estimated amount, and currency.",
+            "reputation": "Standard"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.6189814805984497
+        },
+        "trust": {
+            "trust_score": 0.85,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "karo",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The AI agent's proposed action 'book_flight' perfectly aligns with the user's explicit request to 'book me a flight'.",
+            "requires_payment": true,
+            "reasoning": "The AI agent successfully identified the user's intent to book a flight and proposed the correct action. The amount and currency are provided. The merchant 'karo' is not a widely recognized flight booking platform or airline.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9998854398727417
+        },
+        "trust": {
+            "trust_score": 0.77,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 13:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The agent accurately identified the core intent to book a flight. While the specific merchant and amount were not explicitly requested, the agent made plausible selections to facilitate the booking.",
+            "requires_payment": true,
+            "reasoning": "The user's prompt 'book me a flight from chennai to mumbai' directly translates to the 'book_flight' action within the 'Travel' category. The agent has proposed a flight with Emirates for an estimated 2000 INR, which is a reasonable and plausible proposition for a domestic flight. This transaction clearly requires payment.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9009189605712891
+        },
+        "trust": {
+            "trust_score": 0.79,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 13:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.98,
+            "confidence_reason": "The proposed action 'book_flight' directly aligns with the user's explicit request 'book me a flight from chennai to mumbai'.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately identified the user's intent to book a flight. The category 'Travel' and the estimated amount are consistent with the request. However, the merchant 'amar' is not a recognized entity.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9998856782913208
+        },
+        "trust": {
+            "trust_score": 0.79,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 13:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.98,
+            "confidence_reason": "The proposed action 'book_flight' is a direct and accurate interpretation of the user's 'book me a flight' request.",
+            "requires_payment": true,
+            "reasoning": "The AI agent has correctly identified the user's intent to book a flight from Chennai to Mumbai. The proposed action aligns perfectly with the raw prompt, specifying a flight booking. The merchant, Emirates, is a reputable airline.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.9009189605712891
+        },
+        "trust": {
+            "trust_score": 0.81,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 1.0,
+            "confidence_reason": "The proposed action 'book_flight' perfectly aligns with the user's clear request 'book me a flight'.",
+            "requires_payment": true,
+            "reasoning": "The user explicitly requested to 'book a flight from chennai to mumbai'. The AI agent correctly identified this as a 'Book Flight' intent within the 'Travel' category. The proposed amount and currency are directly provided in the proposal. Booking a flight is a transaction that inherently requires payment.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.8,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The AI agent accurately identified the core intent to book a flight, directly matching the user's explicit request.",
+            "requires_payment": true,
+            "reasoning": "The transaction proposal correctly interprets the user's request to book a flight from Chennai to Mumbai. It accurately assigns the category as 'Travel' and provides a reasonable estimated amount and currency. The merchant 'amar' is specified as the booking entity.",
+            "reputation": "Standard"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.815214216709137
+        },
+        "trust": {
+            "trust_score": 0.81,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amarates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Flight Booking",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly aligns with the user's request, and the category and estimated financial details are appropriate for a domestic flight booking.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight and provided a coherent proposal, including a category, estimated amount, and a plausible merchant, even though specific details were not in the original prompt.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.6431373953819275
+        },
+        "trust": {
+            "trust_score": 0.84,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amarates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The proposed action 'book_flight' directly matches the user's request, and the category, amount, and currency are appropriate for a domestic flight.",
+            "requires_payment": true,
+            "reasoning": "The user explicitly requested to book a flight from Chennai to Mumbai. The AI agent proposed booking a flight, categorizing it as travel, with an estimated amount of 2000 INR. This proposal directly addresses the user's request.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.68,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amarates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.98,
+            "confidence_reason": "The AI agent accurately captured the user's intent to book a flight, identified the travel category, and provided a clear estimated amount and currency, directly aligning with the prompt.",
+            "requires_payment": true,
+            "reasoning": "The user's raw prompt 'book me a flight from chennai to mumbai' directly indicates an intent to book a flight. The AI agent correctly identified this action, categorized it under 'Travel', and provided an estimated cost in Indian Rupees. The merchant 'amarates' is likely a misspelling of 'Emirates', a major airline, which aligns with the flight booking context.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.6431373953819275
+        },
+        "trust": {
+            "trust_score": 0.8,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amarates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.9,
+            "confidence_reason": "The AI agent accurately identified the user's intent to book a flight. The amount and merchant were inferred, but the core action aligns perfectly with the request.",
+            "requires_payment": true,
+            "reasoning": "The user's prompt clearly indicates an intent to book a flight from Chennai to Mumbai. The AI agent correctly interpreted this, proposing a flight booking action with an estimated cost and a likely airline, even though the merchant name was misspelled.",
+            "reputation": "Standard"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.815214216709137
+        },
+        "trust": {
+            "trust_score": 0.71,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 1.0,
+            "confidence_reason": "The proposed action 'book_flight' directly aligns with the user's explicit request to 'book me a flight'.",
+            "requires_payment": true,
+            "reasoning": "The AI agent's proposal to 'book_flight' under the 'Travel' category, with a specified amount and currency, directly addresses the user's request to book a flight from Chennai to Mumbai. The transaction details such as amount, currency, and time are provided, indicating a complete booking proposal.",
+            "reputation": "Standard"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.815214216709137
+        },
+        "trust": {
+            "trust_score": 0.76,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book Flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.9,
+            "confidence_reason": "The agent accurately identified the user's explicit request to book a flight, aligning well with the prompt.",
+            "requires_payment": true,
+            "reasoning": "The user explicitly requested to book a flight from Chennai to Mumbai. The AI agent correctly identified this intent and proposed the action 'book_flight' under the 'Travel' category. It also estimated a reasonable amount and currency (INR 2000) for a domestic flight. The merchant 'amar' was provided by the agent, as no specific merchant was mentioned in the user's prompt. The core intent of booking a flight is accurately reflected by the proposal.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9998854398727417
+        },
+        "trust": {
+            "trust_score": 0.65,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.5,
+            "confidence_reason": "The AI agent correctly identified the action and category. However, the user did not specify a merchant, and the AI agent inferred 'amar', which deviates from the user's original request.",
+            "requires_payment": true,
+            "reasoning": "The core intent to book a flight from Chennai to Mumbai was understood, and the estimated amount and currency are reasonable. However, the AI agent introduced a merchant ('amar') that was not specified by the user, making the proposed transaction not a faithful representation of the user's original, open-ended request.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9998854398727417
+        },
+        "trust": {
+            "trust_score": 0.45,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to several factors. The intent analysis confidence was low (0.5), primarily because the AI agent inferred a merchant ('amar') that was not specified by the user, deviating from the original request. This discrepancy contributed to a high risk level (0.9998854398727417) in the risk assessment. Consequently, the overall trust score for this transaction was low (0.45), triggering the review."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "blue-dart",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 12:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.2,
+            "confidence_reason": "The AI agent proposed a flight booking with 'blue-dart', which is a logistics and courier company, not an airline or flight booking service. This makes the proposed transaction fundamentally incorrect and unable to fulfill the user's request.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight from Chennai to Mumbai and assigned it to the 'Travel' category. It also provided a reasonable estimated amount and currency. However, the critical error lies in proposing 'blue-dart' as the merchant. Blue Dart is a courier service and cannot be used to book flights, indicating a severe misunderstanding of how to execute the user's request, leading to a very low confidence score.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.8895715475082397
+        },
+        "trust": {
+            "trust_score": 0.33,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to a very low intent analysis confidence score of 0.2. This is because the AI agent proposed 'blue-dart' as the merchant for booking a flight. Blue Dart is a logistics and courier company, not an airline or flight booking service, indicating a fundamental misunderstanding of the user's request. The overall trust score is 0.33, resulting in the REVIEW decision."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "charter",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "book me a flight from chennai to mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai.",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.6,
+            "confidence_reason": "The AI accurately identified the user's intent, category, and made a reasonable estimate for the amount and currency. However, the proposed 'merchant' as 'charter' is not a specific entity, which makes the transaction proposal imprecise and less actionable.",
+            "requires_payment": true,
+            "reasoning": "The AI correctly understood the user's desire to book a flight and assigned a suitable category and currency. While a reasonable amount was estimated, the merchant 'charter' is a generic term and not a verifiable business or airline, thus weakening the overall accuracy and practicality of the transaction proposal.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.5,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to multiple factors. The risk assessment categorized it as \"High\" with a very high risk score. Additionally, the intent analysis showed low confidence (0.6) because the proposed merchant \"charter\" is not a specific or verifiable entity, making the transaction imprecise. The merchant's reputation is also \"Unknown,\" contributing to a lower overall trust score of 0.5."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "charter",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow for 25000 INR"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai tomorrow",
+            "category": "Travel",
+            "estimated_amount": 25000.0,
+            "currency": "INR",
+            "confidence": 0.4,
+            "confidence_reason": "The proposed transaction amount of 2000.0 INR significantly differs from the user's specified amount of 25000 INR.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight and the category of travel. However, it failed to accurately capture the specified amount, proposing 2000 INR instead of the user's requested 25000 INR. The merchant 'charter' was an unstated assumption by the AI.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.4,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "This transaction was flagged for review due to a combination of factors. The intent analysis confidence was low (0.4) because the AI's proposed amount (2000 INR) significantly differed from the user's specified amount (25000 INR). The AI also made an unstated assumption about the merchant. Furthermore, the risk assessment identified a high risk level (score 0.99996), contributing to an overall low trust score of 0.4."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "charter",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow for 25000 INR"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 25000.0,
+            "currency": "INR",
+            "confidence": 0.3,
+            "confidence_reason": "The proposed amount (2000 INR) significantly differs from the user's requested amount (25000 INR). The 'tomorrow' constraint was not accurately reflected in the proposed transaction time. The merchant 'charter' is generic and not a specific entity the user requested.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight and the category as 'Travel'. However, the proposed amount is significantly lower than specified by the user, and the 'tomorrow' constraint was ignored. The merchant 'charter' is vague and doesn't align with a specific airline or booking service.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.35,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to several factors. The intent analysis reported low confidence (0.3), noting a significant discrepancy between the proposed (2000 INR) and requested (25000 INR) amounts. The \"tomorrow\" constraint was not reflected, and the merchant \"charter\" was generic. Additionally, the risk assessment flagged a \"High\" risk level with a very high risk score (0.99996), contributing to a low overall trust score (0.35)."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "charter",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-07-23 23:45:00",
+            "raw_prompt": "Book a flight from Chennai to Mumbai tomorrow for 25000 INR"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.2,
+            "confidence_reason": "The proposed amount of 2000 INR significantly differs from the user's explicitly stated amount of 25000 INR. The merchant 'charter' is also not a specific airline or booking platform and was not specified by the user.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight and the travel category. However, it failed to accurately capture the specified amount, proposing 2000 INR instead of 25000 INR. Furthermore, it identified 'charter' as the merchant, which is a type of service rather than a specific verifiable entity for a financial transaction.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.999961256980896
+        },
+        "trust": {
+            "trust_score": 0.3,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "This transaction was flagged for review due to several factors. The intent analysis confidence was low (0.2) because the proposed amount of 2000 INR significantly differs from the user's explicitly stated 25000 INR. The AI also proposed \"charter\" as the merchant, which was not specified by the user and has an unknown reputation. These issues contributed to a high risk assessment (risk score 0.99996) and a low overall trust score (0.3)."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-09 23:30:51.042034",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.88,
+            "confidence_reason": "The AI agent accurately identified the user's intent to book a flight and the correct travel category. The estimated amount and currency are reasonable given the context. The merchant 'Emirates' was chosen without user specification, and while a legitimate airline, it is not the most typical choice for a purely domestic flight within India, which slightly reduces confidence.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly understood the user's core intent to book a flight from Chennai to Mumbai and classified it under 'Travel'. The estimated amount of 2000.0 INR for this domestic route is plausible, and INR is the appropriate currency. While the user did not specify an airline, the agent proposed 'Emirates'. This is a valid airline, but often associated with international routes, making it a less probable default for a domestic Indian flight compared to local carriers. However, no specific user constraints were violated, and the transaction correctly implies a payment.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.7382180690765381
+        },
+        "trust": {
+            "trust_score": 0.72,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Amar",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-09 23:31:42.451205",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "book_flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.35,
+            "confidence_reason": "The AI agent correctly identified the intent and category, and provided reasonable estimates for amount and currency. However, it arbitrarily assigned an unknown merchant 'Amar' which is not a known airline or flight booking service, without any user instruction.",
+            "requires_payment": true,
+            "reasoning": "The AI accurately identified the user's intent to book a flight and classified it under 'Travel'. The estimated amount of 2000.0 and currency (INR) are reasonable for a domestic flight between Chennai and Mumbai. However, the proposal arbitrarily assigns 'Amar' as the merchant. 'Amar' is not a recognized airline or flight booking platform, and this merchant was not specified by the user. This critical assumption and potential misidentification of the merchant significantly reduce the confidence in the proposed transaction.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9999569654464722
+        },
+        "trust": {
+            "trust_score": 0.38,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to several factors. The intent analysis showed low confidence (0.35) because an unknown merchant, 'Amar', was arbitrarily assigned without user instruction, leading to an unknown merchant reputation. This resulted in a high risk level (0.9999569654464722) and a low overall trust score of 0.38."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-09 23:50:26.353906",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.65,
+            "confidence_reason": "The agent correctly identified the core intent and category. However, the proposed merchant 'Emirates' is an unusual choice for a domestic flight between Chennai and Mumbai and was not specified by the user, lowering confidence.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly identified the user's intent to book a flight and categorized it as 'Travel'. The estimated amount of 2000.0 INR is a reasonable approximation for a domestic flight. However, the agent inferred 'Emirates' as the merchant, which is primarily an international airline and an unlikely choice for a domestic route within India (Chennai to Mumbai). This merchant was not specified by the user, creating a notable deviation from a typical domestic booking scenario.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.7382180690765381
+        },
+        "trust": {
+            "trust_score": 0.6,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-09 23:52:29.785220",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.5,
+            "confidence_reason": "The AI agent correctly identified the user's intent to book a flight and the travel category. It also provided reasonable estimates for the amount and currency. However, the chosen merchant, Emirates, is an international airline and does not operate domestic flights between Chennai and Mumbai, which significantly impacts the faithfulness of the proposed transaction to the user's specific request.",
+            "requires_payment": true,
+            "reasoning": "The agent accurately understood the user's primary intent to book a flight from Chennai to Mumbai and classified it under 'Travel'. The estimated amount and currency are reasonable for a domestic flight in India. However, the selection of 'Emirates' as the merchant is inappropriate, as Emirates does not operate domestic routes within India, specifically between Chennai and Mumbai. This makes the proposed transaction infeasible for the specified route, thus lowering confidence despite other correct inferences.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Medium",
+            "risk_score": 0.7382180690765381
+        },
+        "trust": {
+            "trust_score": 0.53,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to low confidence (0.5) in the intent analysis. The AI agent incorrectly proposed Emirates, an international airline, for a domestic flight between Chennai and Mumbai, making the transaction infeasible. Additionally, the risk assessment identified a \"Medium\" risk level with a score of 0.738. These factors contributed to an overall trust score of 0.53, leading to the review decision."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-15 18:25:55.154378",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.9,
+            "confidence_reason": "The AI agent accurately identified the user's core intent to book a flight and proposed a reasonable category, estimated amount, and currency. The choice of merchant was an agent decision in the absence of user specification.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly understood the user's request to book a flight from Chennai to Mumbai. The proposed transaction's category is appropriate for travel. The estimated amount and currency are reasonable for a domestic Indian flight, and payment is indeed required for booking a flight. The agent selected 'Emirates' as the merchant, which is a plausible, albeit not the most common, airline for this domestic route in the absence of a user-specified preference.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.6084105968475342
+        },
+        "trust": {
+            "trust_score": 0.77,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-15 18:59:12.538114",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.7,
+            "confidence_reason": "The AI agent correctly identified the action and category. Reasonable estimates were provided for amount and currency. However, the merchant 'Emirates' was an assumption by the AI agent as it was not specified in the user's original request, which lowers the confidence.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately captured the user's primary intent to book a flight from Chennai to Mumbai and classified it under 'Travel'. The estimated amount and currency are reasonable for a domestic flight in India. However, the AI agent unilaterally selected 'Emirates' as the merchant without explicit instruction from the user, making an important assumption for a key transaction detail.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.6084105968475342
+        },
+        "trust": {
+            "trust_score": 0.67,
+            "decision": "APPROVE"
+        },
+        "explanation": null
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Amar",
+            "amount": 50000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-15 18:59:56.121827",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 50000.0,
+            "currency": "INR",
+            "confidence": 0.45,
+            "confidence_reason": "The AI agent arbitrarily assigned an unspecified and unknown merchant, 'Amar,' which was not requested by the user and is not a recognized airline.",
+            "requires_payment": true,
+            "reasoning": "The agent correctly identified the user's core intent to book a flight from Chennai to Mumbai and assigned a plausible category (Travel), estimated amount, and currency. However, the agent failed to faithfully represent the user's request by unilaterally selecting 'Amar' as the merchant, a name not provided by the user and not identifiable as a legitimate airline. This unrequested merchant selection significantly deviates from the original intent.",
+            "reputation": "Unknown"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 50000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction exceeds the spending limit by $45000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.9999698400497437
+        },
+        "trust": {
+            "trust_score": 0.23,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "This transaction was flagged for review due to multiple concerns. The AI agent arbitrarily assigned an unknown merchant, \"Amar,\" which was not requested by the user, resulting in low intent confidence (0.45). The proposed amount of 50,000 INR also exceeds the spending limit of 5,000 INR. Furthermore, the transaction received a high risk level (0.9999) and a low trust score (0.23)."
+        }
+    },
+    {
+        "proposal": {
+            "action": "book_flight",
+            "category": "Travel",
+            "merchant": "Emirates",
+            "amount": 2000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-15 19:14:23.891270",
+            "raw_prompt": "Book a flight from Chennai to Mumbai"
+        },
+        "intent_analysis": {
+            "intent": "Book a flight from Chennai to Mumbai",
+            "category": "Travel",
+            "estimated_amount": 2000.0,
+            "currency": "INR",
+            "confidence": 0.55,
+            "confidence_reason": "The AI agent correctly identified the core intent and category. However, the proposed merchant 'Emirates' is inappropriate for a domestic flight between Chennai and Mumbai, as Emirates does not operate such routes.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately understood the user's intent to book a flight and categorized it as 'Travel'. It also made reasonable estimations for the transaction amount and currency, which were not explicitly stated. However, the selection of 'Emirates' as the merchant is factually incorrect for a domestic flight route from Chennai to Mumbai, as Emirates primarily operates international flights and not domestic routes within India. This factual discrepancy lowers the overall confidence in the proposed transaction's accuracy.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": true,
+            "transaction_amount": 2000.0,
+            "max_amount": 5000.0,
+            "reason": "Transaction is within the configured spending limit."
+        },
+        "risk_assessment": {
+            "risk_level": "Low",
+            "risk_score": 0.6519598364830017
+        },
+        "trust": {
+            "trust_score": 0.58,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review primarily due to a low trust score (0.58). The intent analysis showed low confidence (0.55) because the AI agent proposed 'Emirates' as the merchant for a domestic flight from Chennai to Mumbai. Emirates does not operate this route, indicating a factual discrepancy in the proposed action."
+        }
+    },
+    {
+        "proposal": {
+            "action": "purchase",
+            "category": "Shopping",
+            "merchant": "Amazon",
+            "amount": 85000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-15 19:48:00.411721",
+            "raw_prompt": "Buy the laptop from Amazon"
+        },
+        "intent_analysis": {
+            "intent": "purchase a laptop",
+            "category": "Shopping",
+            "estimated_amount": 85000.0,
+            "currency": "INR",
+            "confidence": 0.9,
+            "confidence_reason": "The AI agent accurately identified the user's intent to purchase a laptop from Amazon. The category, merchant, and action align perfectly with the request. The amount and currency are reasonable estimates as they were not specified in the original prompt.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly interpreted the user's request to purchase a laptop from Amazon. The proposed transaction accurately reflects the action, merchant, and a reasonable category. While the amount and currency were estimated, they are appropriate given the context and lack of explicit details in the user's prompt, indicating a faithful representation of the core intent.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 85000.0,
+            "max_amount": 2000.0,
+            "reason": "Transaction exceeds the spending limit by $83000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.5144811272621155
+        },
+        "trust": {
+            "trust_score": 0.6,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review primarily because it exceeds the established spending limit. The proposed amount of 85,000 INR is significantly higher than the maximum allowed 2,000 INR. Additionally, the system's risk assessment identified this transaction as having a high risk level, which further contributed to the decision to flag it for review."
+        }
+    },
+    {
+        "proposal": {
+            "action": "purchase",
+            "category": "Shopping",
+            "merchant": "Amazon",
+            "amount": 85000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-17 22:48:31.291742",
+            "raw_prompt": "Buy the laptop from Amazon"
+        },
+        "intent_analysis": {
+            "intent": "Purchase a laptop from Amazon",
+            "category": "Shopping",
+            "estimated_amount": 85000.0,
+            "currency": "INR",
+            "confidence": 1.0,
+            "confidence_reason": "The AI agent accurately identified the user's intent to purchase a laptop from the specified merchant. The estimated amount and currency are reasonable as they were not explicitly mentioned by the user.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly captured the user's core intent to buy a laptop from Amazon. The proposed category 'Shopping' is appropriate, and the estimated amount and currency are reasonable and conform to the rules for unspecified details.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 85000.0,
+            "max_amount": 2000.0,
+            "reason": "Transaction exceeds the spending limit by $83000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.7645562291145325
+        },
+        "trust": {
+            "trust_score": 0.57,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to multiple factors. The proposed amount of 85000.0 INR significantly exceeds the spending limit of 2000.0 INR. Additionally, the risk assessment categorized the transaction with a \"High\" risk level, contributing to the REVIEW decision."
+        }
+    },
+    {
+        "proposal": {
+            "action": "purchase",
+            "category": "Shopping",
+            "merchant": "Amazon",
+            "amount": 85000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-17 22:49:51.558579",
+            "raw_prompt": "Buy the laptop from Amazon"
+        },
+        "intent_analysis": {
+            "intent": "purchase a laptop",
+            "category": "Shopping",
+            "estimated_amount": 85000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The AI agent correctly identified the merchant and the action from the user's prompt. Reasonable estimations were made for the amount and currency, which were not explicitly stated.",
+            "requires_payment": true,
+            "reasoning": "The AI agent accurately captured the user's intent to purchase a laptop from Amazon. Although the amount and currency were not specified by the user, the agent provided a reasonable estimated amount for a laptop and a plausible currency given the merchant. All specified constraints (merchant, action) were correctly represented.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 85000.0,
+            "max_amount": 2000.0,
+            "reason": "Transaction exceeds the spending limit by $83000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.7645562291145325
+        },
+        "trust": {
+            "trust_score": 0.55,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review primarily due to two factors. Firstly, the proposed transaction amount of 85,000 INR significantly exceeds the defined spending limit of 2,000 INR. Secondly, the system's risk assessment identified this transaction as having a \"High\" risk level, contributing to the decision for a manual review."
+        }
+    },
+    {
+        "proposal": {
+            "action": "purchase",
+            "category": "Shopping",
+            "merchant": "Amazon",
+            "amount": 85000.0,
+            "currency": "INR",
+            "transaction_time": "2026-08-17 22:50:15.591518",
+            "raw_prompt": "Buy the laptop from Amazon"
+        },
+        "intent_analysis": {
+            "intent": "Purchase a laptop from Amazon",
+            "category": "Shopping",
+            "estimated_amount": 85000.0,
+            "currency": "INR",
+            "confidence": 0.95,
+            "confidence_reason": "The AI agent accurately identified the user's intent to purchase a laptop from Amazon. The estimated amount and currency are reasonable given no explicit mention in the prompt.",
+            "requires_payment": true,
+            "reasoning": "The AI agent correctly understood the user's core intent to buy a laptop from Amazon. The proposed category 'Shopping' aligns perfectly. While the user did not specify an amount or currency, the agent provided reasonable estimates, which is compliant with the instructions. No important constraints were ignored, leading to a high confidence score.",
+            "reputation": "Trusted"
+        },
+        "spend_cap": {
+            "within_cap": false,
+            "transaction_amount": 85000.0,
+            "max_amount": 2000.0,
+            "reason": "Transaction exceeds the spending limit by $83000.00."
+        },
+        "risk_assessment": {
+            "risk_level": "High",
+            "risk_score": 0.7645562291145325
+        },
+        "trust": {
+            "trust_score": 0.55,
+            "decision": "REVIEW"
+        },
+        "explanation": {
+            "summary": "The transaction was flagged for review due to multiple factors. The proposed transaction amount of 85000.0 INR significantly exceeds the spending limit of 2000.0 INR, violating the spend cap. Additionally, the risk assessment categorized this transaction as High risk, with a risk score of 0.76. These factors collectively contributed to a trust score of 0.55, triggering the REVIEW decision."
+        }
+    }
+]
