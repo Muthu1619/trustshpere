@@ -19,9 +19,10 @@ def evaluate(proposal: TransactionProposal):
 
         return context
 
-    except ValueError as e:
-
+    except Exception as e:
+        import traceback
+        traceback.print_exc()
         raise HTTPException(
-            status_code=400,
+            status_code=500,
             detail=str(e)
         )
